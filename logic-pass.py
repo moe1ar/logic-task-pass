@@ -1,16 +1,18 @@
-# #Task1
-# ##Programe to remove Character from word
-# def remove():
-#     #input Data from user
-#     word=input("enter word : ")
-#     char=input("enter char : ")
-#     #loop to check char
-#     for i in word :
-#         if i == char:
-#             #replace char by empty
-#            word2= word.replace(i,'')
-#     print(word2)
-# remove()
+#Task1
+##Programe to remove Character from word
+def remove():
+    #input Data from user
+    word=input("enter word : ")
+    char=input("enter char : ")
+    word2=''
+    #loop to check char
+    for i in word :
+        if i == char:
+            i='' 
+            #replace char by empty
+        word2+=i
+    print(word2)
+remove()
  
 
 # #Task2
@@ -39,15 +41,15 @@
 
 #task3
 #Programe to count repeat of Char
-def Count():
-    #take data from user
-    word=input("enter word : ")
-    char=input("enter char : ")
-    #variable count to store value for later
-    count=0
-    #loop to check
-    for i in word :
-        if i == char:
-         count+=1
-    print(f"count number of {char} is {count}")
-Count()
+# def Count():
+#     #take data from user
+#     word=input("enter word : ")
+#     char=input("enter char : ")
+#     #variable count to store value for later
+#     count=0
+#     #loop to check
+#     for i in word :
+#         if i == char:
+#          count+=1
+#     print(f"count number of {char} is {count}")
+# Count()
